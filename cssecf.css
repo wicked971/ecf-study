@@ -1,0 +1,13 @@
+button{
+    display: inline-flexbox;
+    font-family:barlow;
+    background-color:color #262526;
+    background: color #f2f2f2; 
+    border-radius: 40px;
+    text-align: center;
+    border-color: #d92332;
+
+}
+img {
+font-size: 5px;
+}
