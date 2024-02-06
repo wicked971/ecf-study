@@ -17,29 +17,29 @@
 <!--Barre de navigation-->
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#"><img src="mécanique1.png">Mécanique</a>
+      <a class="navbar-brand" href="#mécanique"><img src="mécanique1.png">Mécanique</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#"><img src="icons8-niveau-d'huile-du-moteur-30.png">Entretien</a>
+            <a class="nav-link active" aria-current="page" href="#entretien"><img src="icons8-niveau-d'huile-du-moteur-30.png">Entretien</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#"><img src="carroserie.png">Carroserie</a>
+            <a class="nav-link" href="#carroserie"><img src="carroserie.png">Carroserie</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#"><img src="icons8-clé-30.png">Réparation</a>
+            <a class="nav-link" href="#réparation"><img src="icons8-clé-30.png">Réparation</a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"><img src="voiture d'occasion.png">
+            <a class="nav-link dropdown-toggle" href="#occasion" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"><img src="voiture d'occasion.png">
               Véhicule d'occasion
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="#"><img src="audi.png">Audi</a></li>
-              <li><a class="dropdown-item" href="#"><img src="peugeot.png">Peugeot</a></li>
-              <li><a class="dropdown-item" href="#"><img src="renault.png">Renault</a></li>
+              <li><a class="dropdown-item" href="#audi"><img src="audi.png">Audi</a></li>
+              <li><a class="dropdown-item" href="#peugeot"><img src="peugeot.png">Peugeot</a></li>
+              <li><a class="dropdown-item" href="#renault"><img src="renault.png">Renault</a></li>
               <li><a class="dropdown-item" href="#">Autres marque</a></li>
             </ul>
           </li>
@@ -60,7 +60,7 @@
 <br/>
 <div class="row row-cols-1 row-cols-md-3 g-4">
   <div class="col">
-    <div class="card border-danger mb-3">
+    <div  id="mécanique"  class="card border-danger mb-3">
       <img src="mécanique badge.jpg" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title"><img src="mécanique1.png">Mécanique</h5>
@@ -69,7 +69,7 @@
     </div>
   </div>
   <div class="col">
-    <div class="card border-danger mb-3">
+    <div id="entretien" class="card border-danger mb-3">
       <img src="entretien badge.jpg" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title"><img src="icons8-clé-30.png">Entretien</h5>
@@ -78,21 +78,47 @@
     </div>
   </div>
   <div class="col">
-    <div class="card border-danger mb-3">
+    <div id="carroserie"   class="card border-danger mb-3">
       <img src="carrosserie badge.jpg" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title"><img src="carroserie.png">Carroserie</h5>
-        <p class="card-text">Rénovation carroserie accidentée,protection céramique...</ramique></p>
+        <p class="card-text">Rénovation carroserie accidentée,protection céramique...</p>
       </div>
     </div>
   </div>
   <div class="col">
-    <div class="card border-danger mb-3">
+    <div id="réparation" class="card border-danger mb-3">
       <img src="réparation badge.jpg" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title">Réparation</h5>
         <p class="card-text">Vidanges,montage de pneu,plaquettes de frein,batterie,circuit électriques.</p>
       </div>
+    </div>
+  </div>
+</div>
+<div class="card-group">
+  <div  id="audi"  class="card border-danger">
+    <img src="les voitures /audi-rsq3--sportback-quattro-25-tfsi.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title"><img src="audi.png">Audi</h5>
+      <p class="card-text">Découvrez notre gamme de voiture d'occasion de la marque Audi.</p>
+      <a href="#" class="btn btn-danger">Cliquez ici</a>
+    </div>
+  </div>
+  <div id="peugeot"   class="card border-danger">
+    <img src="les voitures /peugeot-208-sacre-numero.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title"><img src="peugeot.png">Peugeot</h5>
+      <p class="card-text">Découvrez notre gamme de voiture d'occasion de la marque Peugeot.</p>
+      <a href="#" class="btn btn-danger">Cliquez ici</a>
+    </div>
+  </div>
+  <div id="renault"  class="card border-danger">
+    <img src="les voitures /renault captur2.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title"><img src="renault.png">Renault</h5>
+      <p class="card-text">Découvrez notre gamme de voiture d'occasion de la marque Renault.</p>
+      <a href="#" class="btn btn-danger">Cliquez ici</a>
     </div>
   </div>
 </div>
